@@ -1,0 +1,68 @@
+.new-farmaci__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    border-radius: 12px;
+  }
+  
+  .new-farmaci__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color:rgb(161, 215, 212);
+  }
+  
+  .new-farmaci__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9e6ec;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-farmaci__actions {
+    text-align: right;
+  }
+  .new-farmaci {
+    background-color: #454848;
+    margin: 1rem auto;
+    width: 100rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(100, 38, 38, 0.25);
+  }
+  
+  .new-farmaci button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border: 1px solid #0c605d;
+    background-color: #0e7b77;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    
+  }
+  
+  .new-farmaci button:hover,
+  .new-farmaci button:active {
+    background-color: #58c3bd;
+    border-color: #0c605d;
+    color:black;
+  }
+  
+  .new-farmaci button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-farmaci button.alternative:hover,
+  .new-farmaci button.alternative:active {
+    background-color: #ddb3f8;
+  }

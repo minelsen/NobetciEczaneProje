@@ -1,0 +1,40 @@
+.new-eczane {
+    background-color: #454848;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 100rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    color:rgb(161, 215, 212);
+  }
+  
+  .new-eczane button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #FE4880;
+    background-color: #FE4880;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-eczane button:hover,
+  .new-eczane button:active {
+    background-color: #0e7b77;
+    border-color: #0e7b77;
+  }
+  
+  .new-eczane button.alternative {
+    color: #0e7b77;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-eczane button.alternative:hover,
+  .new-eczane button.alternative:active {
+    background-color: #ddb3f8;
+  }
+  

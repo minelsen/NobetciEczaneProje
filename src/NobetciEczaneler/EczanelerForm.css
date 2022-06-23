@@ -1,0 +1,34 @@
+.new-eczane__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0.1px;
+    text-align: left;
+  }
+  
+  .new-eczane__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-eczane__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9e6ec;
+    width: 20rem;
+    max-width: 100%;
+  }
+  .new-eczane__control select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  
+  
+  .new-eczane__actions {
+    text-align: right;
+  }
